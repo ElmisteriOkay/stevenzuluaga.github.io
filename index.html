@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/7670363fef.js" crossorigin="anonymous"></script>
+
+    <title>Steven Proyects</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/code-slash-outline.svg" class="logo-brand img-fluid" alt="logo">
+          Steven Proyects
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupposrtedContent">
+          <ul class="navbar-nav paginas">
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="portafolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="about">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="precios">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" id="contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container">
+        <div class="content-center topmargin-xlg">
+          <h1>Diseñamos y construimos tus ideas desde cero</h1>
+          <p>
+            Construimos y diseñamos paginas, aplicaciones y plataformas web para su
+            negocio o marca personal. Tiendas web, aplicaciones de android y IOS.
+            Tu idea la hacemos realidad para aumentar tus clientes.
+          </p>
+          <button class="btn btn-success topmargin-lg" href="#">
+            <i class="fas fa-play"></i>
+            Iniciar un proyecto</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="trabajos">
+      <div class="container">
+          <div class="content-left text-light"><h2>Especialiadades</h2></div>
+          <div class="row pt-3 pb-5">
+            <div class="col-4">
+              <div class="tarjeta" id="web">Desarrollo web</div>
+            </div>
+            <div class="col-4">
+              <div class="tarjeta" id="backend">Bases de datos</div>
+            </div>
+            <div class="col-4">
+              <div class="tarjeta" id="movil">Desarrollo movil</div>
+            </div>
+          </div>
+          <div class="content-center text-light">
+            Diseño, maquetación responsive y cross browser, programación front end y back end y base de datos adaptada al proyecto, para el desarrollo web integral de un comparador de precios y características de autoescuelas en España.
+            Con zona interna de autoescuelas  desde donde introducir la información a mostrar a los usuarios, cálculos de clicks en cada autoescuela para generar comisiones.
+            Un compelto back end desde el que gestionar autoescuelas, carnets, localizaciones,  posicionamiento SEO y mucho más.
+          </div>
+      </div>
+    </section>
+
+    <section id="lenguajes">
+      <div class="container">
+        <div class="content-right text-dark"><h2>Tecnologias y lenguajes</h2></div>
+        <div class="row pb-5 pt-3">
+          <div class="col-2"><img src="imagenes/html.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/css.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/js.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/jquery.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/bootstrap.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/php.png" class="logo img-fluid"></div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-2"><img src="imagenes/react.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/python.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/mysql.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/c.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/java.png" class="logo img-fluid"></div>
+          <div class="col-2"><img src="imagenes/servidor.png" class="logo img-fluid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="caja">
+              <div class="content-center text-dark"><h2>Formulario</h2></div>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control text-dark mt-2" id="name" placeholder="Name">
+                </div>
+                <div class="form-group pt-3 pb-3">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control text-dark mt-2" id="name" placeholder="example@gmail.com">
+                </div>
+                <div class="content-center pt-3"><button type="submit" class="btn btn-primary">Enviar Peticion</button></div>
+              </form>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="imagenes/conexion-mundial.jpg" class="imagen img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  </body>
+</html>
